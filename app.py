@@ -75,7 +75,7 @@ def generate_jd(company_name, role_title, seniority, industry, skills, responsib
 # --- GRADIO UI ---
 with gr.Blocks(title="AI Job Description Generator") as app:
 
-    gr.Markdown("# AI Job Description Generator")
+    gr.Markdown("# 💼 AI Job Description Generator")
     gr.Markdown("Fill in the role details below and click **Generate** to create a professional JD.")
 
     # Company name — optional, triggers a live web lookup
